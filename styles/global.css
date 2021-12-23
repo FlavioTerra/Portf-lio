@@ -1,0 +1,45 @@
+/* 
+        *** Font Lexend-400 ***
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+
+    --gray-50: #F7F8FA;
+    --gray-800: #494D4B;
+  
+    --purple-300: #9F75FF;
+    --purple-500: #8257E5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--gray-50);
+    font-family: Lexend, Helvetica, sans-serif;
+    margin: 3rem 0 0 0; 
+    color: var(--gray-800);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
